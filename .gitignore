@@ -1,0 +1,39 @@
+# Foundry
+cache/
+out/
+broadcast/
+*.gas-snapshot
+
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python, if later used for scripts/notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Generated outputs
+outputs/traces/*
+!outputs/traces/.gitkeep
+
+# Coverage
+coverage/
+lcov.info
+
